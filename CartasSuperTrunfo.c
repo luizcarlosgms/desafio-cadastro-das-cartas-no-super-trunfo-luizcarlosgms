@@ -20,10 +20,10 @@ int main() {
     printf("Digite o código da 1ª carta: ");
     scanf("%s",codigo_carta1);
 
-    printf("Digite o nome da 1ª cidade: ");
+    printf("Digite o nome da 1ª cidade: "); //O usuário se for usar nomes compostor deve juntar as palavras(NossaSenhora)
     scanf("%s", nome_cidade1);
 
-    printf("Digite o Estado: ");
+    printf("Digite o Estado (ex: RJ): ");
     scanf("%s", estado1);
         
     printf("Digite o número da população da 1ª cidade: ");
